@@ -10,7 +10,6 @@ package:
 source:
   url: https://pypi.org/packages/source/s/solarutils/solarutils-${{ version }}.tar.gz
   sha256: f2ad9fe2e284c51a8378bcb12f94d0cb2d55c91f28529bf0d70853ca49152a1c
-  patches:
 
 build:
   number: 0
