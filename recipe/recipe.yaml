@@ -11,9 +11,6 @@ source:
   url: https://pypi.org/packages/source/s/solarutils/solarutils-${{ version }}.tar.gz
   sha256: f2ad9fe2e284c51a8378bcb12f94d0cb2d55c91f28529bf0d70853ca49152a1c
   patches:
-    - patch_compiler_for_conda_forge.diff
-    - avoid-c23-keywords.patch
-    - fix-macos-dylib-linking.patch
 
 build:
   number: 0
@@ -42,8 +39,8 @@ about:
   license_file:
     - LICENSE
     - solar_utils/NREL_DISCLAIMERS-COPYRIGHTS-LICENSES.txt
-  homepage: https://github.com/SunPower/SolarUtils
-  documentation: https://pythonhosted.org/SolarUtils/
+  homepage: https://github.com/mikofski/SolarUtils
+  documentation: https://mikofski.github.io/SolarUtils/
 
 extra:
   recipe-maintainers:
